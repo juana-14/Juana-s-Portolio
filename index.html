@@ -377,3 +377,494 @@
   /* ---------- Footer / contact ---------- */
   footer{
     padding:48px 0 60px;
+    border-top:1px solid var(--line);
+  }
+  .contact-grid{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+    flex-wrap:wrap;
+    gap:24px;
+  }
+  footer h2{
+    font-family:'Fraunces', serif;
+    font-weight:500;
+    font-size:1.9rem;
+    margin:0 0 10px;
+  }
+  .contact-list{ list-style:none; margin:0; padding:0; }
+  .contact-list li{ margin-bottom:6px; font-size:14.5px; }
+  .contact-list a{ text-decoration:none; border-bottom:1px solid var(--line); }
+  .contact-list a:hover{ border-bottom-color:var(--gold); }
+  .foot-note{
+    margin-top:34px;
+    font-size:12px;
+    color:var(--muted);
+    font-family:'IBM Plex Mono', monospace;
+  }
+</style>
+</head>
+<body>
+
+<nav class="colheader-nav">
+  <div class="wrap">
+    <span class="brand">JY / PORTFOLIO</span>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#background">Background</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero wrap">
+  <div class="hero-grid">
+    <div>
+      <div class="eyebrow">Melbourne, VIC</div>
+      <h1>Juana Yogendra</h1>
+      <div class="role">Junior Business Analyst / Data Analyst</div>
+      <p class="pitch">Final-year Business Analytics student at La Trobe University, turning messy operational and customer data into decisions — across Power BI, Tableau, Excel, SQL and Python.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#projects">View projects</a>
+        <a class="btn btn-ghost" href="#contact">Get in touch</a>
+      </div>
+    </div>
+    <div class="kpi-panel">
+      <div class="kpi-head">
+        <span class="mono" style="font-size:12px; color:var(--muted);"><span class="dot"></span>SNAPSHOT</span>
+        <span class="mono" style="font-size:11px; color:var(--muted);">FY26</span>
+      </div>
+      <div class="kpi-grid">
+        <div class="kpi-tile">
+          <div class="num">8</div>
+          <div class="lbl">End-to-end analytics &amp; consulting projects</div>
+        </div>
+        <div class="kpi-tile">
+          <div class="num">76</div>
+          <div class="lbl">WAM, Business Analytics</div>
+        </div>
+        <div class="kpi-tile">
+          <div class="num">22</div>
+          <div class="lbl">Salesforce Trailhead badges</div>
+        </div>
+        <div class="kpi-tile">
+          <div class="num">3</div>
+          <div class="lbl">Google Analytics 4 certificates</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section id="about">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>About</h2>
+      <span class="section-index">01 / Profile</span>
+    </div>
+    <div class="about-body">
+      <p>
+        I'm in my final year of a Bachelor of Business Analytics at La Trobe University in Melbourne,
+        graduating June 2027. I like the part of analytics work that most people skip past: cleaning
+        the data properly, checking the numbers reconcile, and making sure the recommendation actually
+        follows from the evidence. Across four projects — spanning healthcare, climate risk, retail and
+        market research — I've worked in Power BI, Tableau, Excel and stakeholder research to turn
+        datasets into decisions a non-technical stakeholder can act on.
+      </p>
+      <p>
+        Outside coursework, I work part-time at McDonald's Australia and run private tutoring as a
+        sole trader — so I'm used to juggling structured, deadline-driven work with people-facing roles.
+      </p>
+      <ul class="fact-list">
+        <li><span class="k">Location</span><span class="v">Melbourne, VIC</span></li>
+        <li><span class="k">Relocation</span><span class="v">Open, anywhere in Australia</span></li>
+        <li><span class="k">Study</span><span class="v">Bachelor of Business Analytics, La Trobe</span></li>
+        <li><span class="k">Graduating</span><span class="v">June 2027</span></li>
+        <li><span class="k">Licences</span><span class="v">Driver's Licence · WWCC</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Skills</h2>
+      <span class="section-index">02 / Toolkit</span>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-col">
+        <h3>BI &amp; Visualisation</h3>
+        <ul>
+          <li><strong>Power BI</strong> — dashboards, DAX, KPI reporting</li>
+          <li><strong>Tableau</strong> — multi-view dashboards, geo mapping</li>
+          <li><strong>Excel</strong> — advanced, pivot tables, decomposition modelling</li>
+        </ul>
+      </div>
+      <div class="skill-col">
+        <h3>Programming &amp; Data</h3>
+        <ul>
+          <li><strong>Python</strong> — Pandas, NumPy, Matplotlib</li>
+          <li><strong>SQL</strong> — querying &amp; data prep</li>
+          <li><strong>SAS</strong> — statistical analysis</li>
+        </ul>
+      </div>
+      <div class="skill-col">
+        <h3>CRM &amp; Platforms</h3>
+        <ul>
+          <li><strong>Salesforce</strong> — 22 Trailhead badges</li>
+          <li>incl. Agentforce, Health Cloud, Lightning App Builder</li>
+        </ul>
+      </div>
+      <div class="skill-col">
+        <h3>Certifications</h3>
+        <ul>
+          <li><strong>Google Analytics 4</strong> — x3 certificates</li>
+          <li>A-Level: Business Studies (A*), Economics (A)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Projects</h2>
+      <span class="section-index">03 / Case studies</span>
+    </div>
+
+    <!-- Project 1 -->
+    <article class="project">
+      <div class="project-top">
+        <div>
+          <h3>SmartCare Navigator</h3>
+          <div class="project-role">Group capstone — dashboard &amp; data lead</div>
+        </div>
+        <div class="tag-row">
+          <span class="tag">Power BI</span>
+          <span class="tag">Salesforce Health Cloud</span>
+          <span class="tag">Jira / Agile</span>
+        </div>
+      </div>
+      <div class="project-body">
+        <div class="field">
+          <div class="field-label">Problem</div>
+          <p>Australian patients navigate GPs, pharmacies, telehealth and hospitals with no connected
+            system, contributing to ED overcrowding and inconsistent care.</p>
+        </div>
+        <div class="field">
+          <div class="field-label">Approach</div>
+          <p>Built the Power BI analytics layer for an AI-enabled care navigation platform — cleaned
+            and standardised healthcare datasets, then designed KPI cards, trend lines and executive
+            summaries tracking ED visits, wait times, telehealth adoption and satisfaction. Work was
+            structured in Jira using Agile/Scrum — features, user stories and a sprint board tracking
+            progress from backlog to delivery.</p>
+        </div>
+        <div class="field">
+          <div class="field-label">Impact</div>
+          <p><span class="impact-figure">35%</span> improvement in headline KPIs modelled after
+            rollout; non-urgent ED visits trending down and patient satisfaction holding between
+            <span class="impact-figure">86–95%</span> across the year.</p>
+        </div>
+      </div>
+    </article>
+
+    <!-- Project 2 -->
+    <article class="project">
+      <div class="project-top">
+        <div>
+          <h3>Climate Risk &amp; Flood Preparedness Dashboard — NAB</h3>
+          <div class="project-role">Group capstone — dashboard build &amp; strategy sections</div>
+        </div>
+        <div class="tag-row">
+          <span class="tag">Tableau</span>
+          <span class="tag">Climate Data</span>
+        </div>
+      </div>
+      <div class="project-body">
+        <div class="field">
+          <div class="field-label">Problem</div>
+          <p>How might NAB use climate and infrastructure data to assess flood risk exposure across
+            its regional footprint and support more resilient flood preparedness planning?</p>
+        </div>
+        <div class="field">
+          <div class="field-label">Approach</div>
+          <p>Designed an interactive Tableau dashboard comparing 14 years of climate and
+            infrastructure data (2010–2024) across three regions, covering flood frequency, regional
+            risk comparison, rainfall trend analysis and heatwave frequency.</p>
+        </div>
+        <div class="field">
+          <div class="field-label">Impact</div>
+          <p>Delivered differentiated, risk-prioritised recommendations across the three regions,
+            plus a proposed rollout timeline and early-warning monitoring approach to support
+            infrastructure resilience planning.</p>
+        </div>
+      </div>
+    </article>
+
+    <!-- Project 3 -->
+    <article class="project">
+      <div class="project-top">
+        <div>
+          <h3>FreshMart Customer Analytics</h3>
+          <div class="project-role">Individual assessment — market share decomposition</div>
+        </div>
+        <div class="tag-row">
+          <span class="tag">Excel</span>
+          <span class="tag">Pivot Tables</span>
+        </div>
+      </div>
+      <div class="project-body">
+        <div class="field">
+          <div class="field-label">Problem</div>
+          <p>FreshMart, a Riverdale grocery retailer, was losing market share despite a prime
+            location — ownership needed to know why, relative to two direct competitors.</p>
+        </div>
+        <div class="field">
+          <div class="field-label">Approach</div>
+          <p>Built pivot tables to decompose market share into penetration and average-spend-per-customer
+            components, then layered in attitudinal survey data across price, assortment and
+            service perception.</p>
+        </div>
+        <div class="field">
+          <div class="field-label">Impact</div>
+          <p>Diagnosed a <span class="impact-figure">21.0%</span> share vs. <span class="impact-figure">41.7%</span>
+            for the market leader, driven by weak price and assortment perception; delivered four
+            prioritised, literature-backed recommendations on pricing, assortment, bundling and loyalty.</p>
+        </div>
+      </div>
+    </article>
+
+    <!-- Project 4 -->
+    <article class="project">
+      <div class="project-top">
+        <div>
+          <h3>Practera — Buyer Persona &amp; Market Intelligence</h3>
+          <div class="project-role">8-week industry consulting engagement</div>
+        </div>
+        <div class="tag-row">
+          <span class="tag">Market Research</span>
+          <span class="tag">Stakeholder Analysis</span>
+        </div>
+      </div>
+      <div class="project-body">
+        <div class="field">
+          <div class="field-label">Problem</div>
+          <p>A client building an industrial decarbonisation "Centre of Excellence" needed to understand
+            who would actually buy its data intelligence offering, and why.</p>
+        </div>
+        <div class="field">
+          <div class="field-label">Approach</div>
+          <p>Synthesised 20+ industry sources (KPMG, BCG, IEA, DOE, Siemens, McKinsey, IFRS/AASB
+            standards) into four buyer personas spanning Operations, Finance, HR and Insurance — each
+            mapped to KPIs, buying triggers, objections and data needs.</p>
+        </div>
+        <div class="field">
+          <div class="field-label">Impact</div>
+          <p>Delivered a structured go-to-market research pack with an explicit gap analysis, flagging
+            where evidence was thin and recommending how to close it — primary interviews, insurer
+            partnerships, internal pilots.</p>
+        </div>
+      </div>
+    </article>
+
+    <!-- Project 5 -->
+    <article class="project">
+      <div class="project-top">
+        <div>
+          <h3>LaTrobeMart Fulfilment Transformation</h3>
+          <div class="project-role">Group consulting capstone — individual diagnostic, team of four</div>
+        </div>
+        <div class="tag-row">
+          <span class="tag">McKinsey 7S</span>
+          <span class="tag">MECE</span>
+          <span class="tag">Excel</span>
+          <span class="tag">PowerPoint</span>
+        </div>
+      </div>
+      <div class="project-body">
+        <div class="field">
+          <div class="field-label">Problem</div>
+          <p>LaTrobeMart was facing a <span class="impact-figure">12.8%</span> NPAT decline, driven by
+            an unscaled fulfilment model that hadn't kept pace with growth.</p>
+        </div>
+        <div class="field">
+          <div class="field-label">Approach</div>
+          <p>Produced an individual client diagnostic applying the McKinsey 7S framework and a MECE
+            issue tree to isolate root causes. As part of a four-person team, developed a full
+            deliverable suite — root cause analysis, a phased implementation roadmap, a change
+            management plan (Kotter's 8-Step and ADKAR models), and balanced scorecard KPIs.</p>
+        </div>
+        <div class="field">
+          <div class="field-label">Impact</div>
+          <p>Delivered a client-ready turnaround plan spanning the operational, organisational and
+            change-management dimensions of the fulfilment problem, from diagnosis through to
+            measurable KPIs.</p>
+        </div>
+      </div>
+    </article>
+
+    <!-- Project 6 -->
+    <article class="project">
+      <div class="project-top">
+        <div>
+          <h3>Demand Forecasting &amp; Procurement</h3>
+          <div class="project-role">Logistics client engagement</div>
+        </div>
+        <div class="tag-row">
+          <span class="tag">Excel</span>
+          <span class="tag">Forecasting</span>
+          <span class="tag">Statistics</span>
+        </div>
+      </div>
+      <div class="project-body">
+        <div class="field">
+          <div class="field-label">Problem</div>
+          <p>A logistics client needed to choose a reliable forecasting method for SKU-level demand
+            and set Q1 procurement levels with confidence.</p>
+        </div>
+        <div class="field">
+          <div class="field-label">Approach</div>
+          <p>Evaluated Excel ETS against the LogHub forecasting tool using MAPE, RMSE and MAD accuracy
+            metrics across two SKUs, then built Q1 procurement recommendations including safety stock
+            calculations and service level targets.</p>
+        </div>
+        <div class="field">
+          <div class="field-label">Impact</div>
+          <p>LogHub outperformed Excel ETS on both SKUs and was recommended with supporting evidence;
+            assumptions and limitations were documented for stakeholder review.</p>
+        </div>
+      </div>
+    </article>
+
+    <!-- Project 7 -->
+    <article class="project">
+      <div class="project-top">
+        <div>
+          <h3>Workforce Analytics</h3>
+          <div class="project-role">Restaurant franchise client engagement</div>
+        </div>
+        <div class="tag-row">
+          <span class="tag">HR Analytics</span>
+          <span class="tag">Survey Data</span>
+          <span class="tag">Board Reporting</span>
+        </div>
+      </div>
+      <div class="project-body">
+        <div class="field">
+          <div class="field-label">Problem</div>
+          <p>A restaurant franchise needed evidence-based interventions to address workforce issues
+            surfaced in employee survey data, with a way to prove the interventions actually worked.</p>
+        </div>
+        <div class="field">
+          <div class="field-label">Approach</div>
+          <p>Analysed survey data to identify three core workforce issues, then designed
+            evidence-based interventions with assigned KPIs, budgets and owners. Built a Kirkpatrick
+            evaluation framework to assess intervention effectiveness at 3, 6 and 12 months.</p>
+        </div>
+        <div class="field">
+          <div class="field-label">Impact</div>
+          <p>Delivered a board-ready presentation with a structured implementation and evaluation
+            plan — from diagnosis through to measurable, time-staged follow-up.</p>
+        </div>
+      </div>
+    </article>
+
+    <!-- Project 8 -->
+    <article class="project">
+      <div class="project-top">
+        <div>
+          <h3>Retail Sales Trend Analysis</h3>
+          <div class="project-role">Independent project</div>
+        </div>
+        <div class="tag-row">
+          <span class="tag">Python</span>
+          <span class="tag">SAS</span>
+          <span class="tag">GitHub</span>
+        </div>
+      </div>
+      <div class="project-body">
+        <div class="field">
+          <div class="field-label">Problem</div>
+          <p>A large retail sales dataset needed exploring to surface revenue trends and anomalies
+            that weren't visible from the raw data alone.</p>
+        </div>
+        <div class="field">
+          <div class="field-label">Approach</div>
+          <p>Explored <span class="impact-figure">10,000+</span> retail sales records using Python
+            (Pandas, Matplotlib) and SAS, running exploratory data analysis to identify seasonal and
+            category-level trends.</p>
+        </div>
+        <div class="field">
+          <div class="field-label">Impact</div>
+          <p>Identified a <span class="impact-figure">22%</span> Q4 revenue uplift; published the
+            documented analysis and code to GitHub.</p>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<section id="background">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Background</h2>
+      <span class="section-index">04 / Experience &amp; education</span>
+    </div>
+    <div class="timeline">
+      <div class="tl-row">
+        <div class="when">2023 – 2027</div>
+        <div class="what">
+          <strong>Bachelor of Business Analytics — La Trobe University, Melbourne</strong>
+          <p>WAM 76. Expected graduation June 2027.</p>
+        </div>
+      </div>
+      <div class="tl-row">
+        <div class="when">Nov 2024 – Feb 2025</div>
+        <div class="what">
+          <strong>Operations Intern — Trans Global Logistics, Colombo</strong>
+          <p>Supported day-to-day operations within a logistics environment.</p>
+        </div>
+      </div>
+      <div class="tl-row">
+        <div class="when">Ongoing</div>
+        <div class="what">
+          <strong>Sole Trader — Private Tutor</strong>
+          <p>Operates independently under an ABN, alongside part-time work at McDonald's Australia.</p>
+        </div>
+      </div>
+      <div class="tl-row">
+        <div class="when">Extracurricular</div>
+        <div class="what">
+          <strong>Leadership &amp; sport</strong>
+          <p>Dance Club President; school representative in basketball, athletics and netball; school
+            productions.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer id="contact">
+  <div class="wrap">
+    <div class="contact-grid">
+      <div>
+        <h2>Let's talk</h2>
+        <ul class="contact-list">
+          <!-- Replace the placeholders below with your real details -->
+          <li>Email: <a href="mailto:juanayogendra14@gmail.com">juanayogendra14@gmail.com</a></li>
+          <li>Phone: <a href="tel:+61451546023">0451 546 023</a></li>
+          <li>LinkedIn: <a href="https://www.linkedin.com/in/juana-yogendra-99528a278/">linkedin.com/in/juana-yogendra</a></li>
+        </ul>
+      </div>
+      <div class="eyebrow">Melbourne, VIC, Australia</div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
